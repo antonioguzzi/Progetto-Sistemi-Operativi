@@ -1,0 +1,13 @@
+void incr_removed();
+void reset_removed();
+int read_removed();
+int supermarket_is_closed();
+int read_served_cust();
+void incr_served_cust(int i);
+int random_choice();
+int read_mutex_queue_info ();
+int open_file(char const *file_name);
+int read_cust_id();
+void new_cust_id(int i);
+int read_total_purchased_products();
+void incr_total_purchased_products(int i);

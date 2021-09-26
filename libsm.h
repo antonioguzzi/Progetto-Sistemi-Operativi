@@ -1,0 +1,17 @@
+int wait_list_is_empty();
+void exit_custom(queuePtr* q);
+int cashes_init();
+int tail_insert(queuePtr* q, customer_info* customer,int i);
+int wait_list_insert(queuePtr* q, customer_info* customer);
+int head_insert(id_nodePtr* list, pthread_t new_thread);
+customer_info* init_customer(unsigned int seed, int i);
+void wake_up_customers(queuePtr *q);
+int elab_customer(queuePtr* q, int i);
+int cashdesk_is_open(int i);
+int check_closing_cashdesk(int count, int* open);
+void check_open_cashdesk(int* open);
+int time_insert(timerPtr* op_tm, float open_timer);
+void update_times_list(int id, float in_sm, float in_queue, int moves, int products);
+void cust_times_insert(customer_timesPtr* list, int id, float in_sm, float in_queue, int moves, int produts);
+int write_in_logfile();
+void free_times();

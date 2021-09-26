@@ -1,0 +1,10 @@
+K 6
+C 50
+E 3
+T 200
+P 100
+PRODUCT_TIME 5
+BOUND_MAX 2 //se è presente una cassa con >2 clienti ne apre una
+BOUND_MIN 1 //per la chiusura se c'è una cassa con al più un cliente 
+TIMER 2
+LOGFILE logfile.txt
